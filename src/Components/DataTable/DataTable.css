@@ -1,0 +1,71 @@
+
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    /* height: 438px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f1f1f1;
+  }
+  
+  .table-container::-webkit-scrollbar {
+    height: 12px;
+    width: 6px;
+  }
+  
+  .table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb {
+    background:  #2042B6;
+    ;
+    border-radius: 10px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb:hover {
+    background: #02175d;
+    ;
+  }
+  
+  .download-btn, .view-methodology-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .download-btn {
+    background-color: #2042B6;
+    color: white;
+  }
+  
+  .view-methodology-btn {
+    background-color: #2042B6;
+    color: white;
+  }
+  

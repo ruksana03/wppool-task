@@ -1,0 +1,16 @@
+.banner {
+    background-image: url('../../assets/images/dots-removebg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2042B6;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(32, 66, 182, 0.25);
+}
